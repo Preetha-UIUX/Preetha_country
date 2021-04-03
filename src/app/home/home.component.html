@@ -1,0 +1,14 @@
+<p>home works!</p>
+
+<!-- <button (click)="get()">Get</button>
+<button (click)="post()">Post</button> -->
+<!-- {{get()}} -->
+<ul *ngFor='let datas of datanew'>
+    <li>{{datas.country.country_name}}</li>
+
+</ul>
+<!-- <button (click)="getStates()">Get</button> -->
+<ul *ngFor='let state of statenew'>
+    <li (click)="getStates()">{{state.states.name}}</li>
+</ul>
+
